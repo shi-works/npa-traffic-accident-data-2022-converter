@@ -42,13 +42,13 @@
 ##### GeoParquet形式
 - `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2022_convert.parquet`,91.5MB
 
-### Public Website
+## Public Website
 - https://github.com/shi-works/npa-traffic-accident-map
 
-### 使用データ及び出力結果のライセンスについて
+## 使用データ及び出力結果のライセンスについて
 本データセットは[CC-BY-4.0](https://pmtiles-data.s3.ap-northeast-1.amazonaws.com/traffic-accident/LICENSE)で提供されます。使用の際には本レポジトリへのリンクを提示してください。
 
 また、本データセットは交通事故統計情報のオープンデータ（2019、2020、2021、2022年）の本票を加工して作成したものです。本データセットの使用・加工にあたっては、[警察庁Webサイトの利用規約](https://www.npa.go.jp/rules/index.html)を必ずご確認ください。
 
-### 免責事項
+## 免責事項
 利用者が当該データを用いて行う一切の行為について何ら責任を負うものではありません。
