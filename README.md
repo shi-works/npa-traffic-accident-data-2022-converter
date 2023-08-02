@@ -17,15 +17,15 @@
 
 #### 使用データ
 - `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2022_to-degree.csv`,73.8MB  
-- コード表`https://github.com/shi-works/traffic-accident-converter/tree/main/code`
+- コード表`https://github.com/shi-works/traffic-accident-data-2022-converter/tree/main/code`
 
 #### 出力結果
 ##### csv形式
-- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2021_convert_v2.csv`,722.4MB  
+- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2022_convert.csv`,221.0MB  
 ##### FlatGeobuf形式
 - `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2021_convert_v2.fgb`,1.1GB
 
 ### 使用データ及び出力結果のライセンスについて
 本データセットは[CC-BY-4.0](https://pmtiles-data.s3.ap-northeast-1.amazonaws.com/traffic-accident/LICENSE)で提供されます。使用の際には本レポジトリへのリンクを提示してください。
 
-また、本データセットは交通事故統計情報のオープンデータ（2019年、2020年、2021年）の本票を加工して作成したものです。本データセットの使用・加工にあたっては、[警察庁Webサイトの利用規約](https://www.npa.go.jp/rules/index.html)を必ずご確認ください。
+また、本データセットは交通事故統計情報のオープンデータ（2022年）の本票を加工して作成したものです。本データセットの使用・加工にあたっては、[警察庁Webサイトの利用規約](https://www.npa.go.jp/rules/index.html)を必ずご確認ください。
