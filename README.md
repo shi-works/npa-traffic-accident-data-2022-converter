@@ -28,7 +28,7 @@
 
 ### csvfile-merge.py
 - 2019-2021年のデータと2022年のデータをマージするプログラムになります。
-- 2019-2021年のデータの変換ツールは[こちら](https://github.com/shi-works/traffic-accident-data-converter)です。
+- 2019-2021年のデータの変換ツールは[こちらのリポジトリ](https://github.com/shi-works/traffic-accident-data-converter)を参照してください。
 
 #### 使用データ
 - `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2021_convert_v2.csv`,722.4MB  
