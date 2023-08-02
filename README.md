@@ -1,6 +1,6 @@
 # traffic-accident-2022-converter
 ## プログラムについて
-- 本プログラムは、警察庁が公開している、[交通事故統計情報のオープンデータ（2022年）の本票](https://www.npa.go.jp/publications/statistics/koutsuu/opendata/2022/opendata_2022.html)を[コード表](https://www.npa.go.jp/publications/statistics/koutsuu/opendata/2022/opendata_2022.html)を元に読みやすいデータに変換するプログラムになります。
+- 本プログラムは、警察庁が公開している、[交通事故統計情報のオープンデータ（2022年）の本票](https://www.npa.go.jp/publications/statistics/koutsuu/opendata/2022/opendata_2022.html)を[コード表](https://www.npa.go.jp/publications/statistics/koutsuu/opendata/2022/opendata_2022.html)を元に読みやすいデータ（GISデータ）に変換するプログラムになります。
 - Pythonで構築
 
 ### csvfile-to-degree.py
