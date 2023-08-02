@@ -26,10 +26,23 @@
 ##### FlatGeobuf形式
 - `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2022_convert.fgb`,354.2MB
 
+### csvfile-merge.py
+- 2019-2021年のデータと2022年のデータをマージするプログラムになります。
+
+#### 使用データ
+- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2021_convert_v2.csv`,722.4MB  
+- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2022_convert.csv`,221.0MB
+
+#### 出力結果
+##### csv形式
+- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2022_convert.csv`,972.4MB  
+##### FlatGeobuf形式
+- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2022_convert.fgb`,1.5GB  
+
 ### 使用データ及び出力結果のライセンスについて
 本データセットは[CC-BY-4.0](https://pmtiles-data.s3.ap-northeast-1.amazonaws.com/traffic-accident/LICENSE)で提供されます。使用の際には本レポジトリへのリンクを提示してください。
 
-また、本データセットは交通事故統計情報のオープンデータ（2022年）の本票を加工して作成したものです。本データセットの使用・加工にあたっては、[警察庁Webサイトの利用規約](https://www.npa.go.jp/rules/index.html)を必ずご確認ください。
+また、本データセットは交通事故統計情報のオープンデータ（2019、2020、2021、2022年）の本票を加工して作成したものです。本データセットの使用・加工にあたっては、[警察庁Webサイトの利用規約](https://www.npa.go.jp/rules/index.html)を必ずご確認ください。
 
 ### 免責事項
 利用者が当該データを用いて行う一切の行為について何ら責任を負うものではありません。
