@@ -5,6 +5,7 @@
 
 ### csvfile-to-degree.py
 - マージした本票CSVファイル（2019～2021年）の「地点　緯度（北緯）」と「地点　経度（東経）」を十進法度単位に変換するプログラムになります。
+- 文字コードをUTF-8に変換します。
 
 #### 使用データ
 - `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/data/honhyo_2022.csv`,62.8MB
