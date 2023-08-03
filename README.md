@@ -22,9 +22,9 @@
 
 #### 出力結果
 ##### csv形式
-- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2022_convert.csv`,221.0MB  
+- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2022_convert.csv`,227.4MB  
 ##### FlatGeobuf形式
-- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2022_convert.fgb`,354.2MB
+- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2022_convert.fgb`,358.9MB
 
 ### csvfile-merge.py
 - 2019-2021年のデータと2022年のデータをマージするプログラムになります。
