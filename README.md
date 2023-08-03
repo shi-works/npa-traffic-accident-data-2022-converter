@@ -43,7 +43,7 @@
 - `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2022_convert.parquet`,94.2MB
 
 ## Public Website
-- https://github.com/shi-works/npa-traffic-accident-map
+- https://shi-works.github.io/npa-traffic-accident-map/
 
 ## 使用データ及び出力結果のライセンスについて
 本データセットは[CC-BY-4.0](https://pmtiles-data.s3.ap-northeast-1.amazonaws.com/traffic-accident/LICENSE)で提供されます。使用の際には本レポジトリへのリンクを提示してください。
