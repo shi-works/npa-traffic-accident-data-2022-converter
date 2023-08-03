@@ -36,11 +36,11 @@
 
 #### 出力結果
 ##### csv形式
-- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2022_convert.csv`,972.4MB  
+- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2022_convert.csv`,978.7MB  
 ##### FlatGeobuf形式
 - `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2022_convert.fgb`,1.5GB
 ##### GeoParquet形式
-- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2022_convert.parquet`,91.5MB
+- `https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2022_convert.parquet`,94.2MB
 
 ## Public Website
 - https://github.com/shi-works/npa-traffic-accident-map
