@@ -284,11 +284,11 @@ with open(output_csvfile, 'a', encoding='UTF-8') as f:
 
     # 一時停止規制　表示
     def itijiteisikisei_hyouji(code):
-        if code == 21:
+        if code == '21':
             return '表示あり'
-        elif code == 22:
+        elif code == '22':
             return '表示なし'
-        elif code == 23:
+        elif code == '00':
             # return 'その他'
             return '対象外当事者'
 
@@ -676,14 +676,16 @@ with open(output_csvfile, 'a', encoding='UTF-8') as f:
             str(data[i][23]))
 
         # 一時停止規制_表示（当事者A）
-        res_itijiteisikisei_hyouji_a = itijiteisikisei_hyouji(int(data[i][24]))
+        # res_itijiteisikisei_hyouji_a = itijiteisikisei_hyouji(int(data[i][24]))
+        res_itijiteisikisei_hyouji_a = itijiteisikisei_hyouji(str(data[i][24]))
 
         # 一時停止規制_標識（当事者B）
         res_itijiteisikisei_hyousiki_b = itijiteisikisei_hyousiki(
             str(data[i][25]))
 
         # 一時停止規制_表示（当事者B）
-        res_itijiteisikisei_hyouji_b = itijiteisikisei_hyouji(int(data[i][26]))
+        # res_itijiteisikisei_hyouji_b = itijiteisikisei_hyouji(int(data[i][26]))
+        res_itijiteisikisei_hyouji_b = itijiteisikisei_hyouji(str(data[i][24]))
 
         # 車道幅員
         res_syadouhukuin = syadouhukuin(str(data[i][27]))
